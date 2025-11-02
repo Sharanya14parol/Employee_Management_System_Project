@@ -1,0 +1,155 @@
+.nav-button {
+  border-radius: 7px;
+  cursor: pointer;
+  padding: 5px;
+  font-weight: bold;
+  color: maroon;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; 
+  gap: 2rem;
+  border: 2px solid maroon;
+  padding: 10px 20px;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 10px auto;
+  background-color: #fff;
+}
+.nav-button:hover {
+  background-color: rgb(194, 191, 191);
+}
+.nav-Link {
+  text-decoration: none;
+  font-weight: bold;
+  color: maroon;
+}
+.nav-Link:hover {
+  color: rgb(185, 8, 8);
+}
+@media (max-width: 500px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links,
+  .nav-actions {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .nav-Link {
+    display: block;
+  }
+}
+@media (max-width: 380px) {
+  .navbar-title {
+    font-size: 1.1rem;
+  }
+
+  .navbar {
+    border-width: 1.5px;
+    padding: 8px;
+  }
+
+  .nav-Link {
+    font-size: 0.9rem;
+  }
+
+  .nav-button {
+    font-size: 0.85rem;
+    padding: 5px 8px;
+  }
+}
+
+
+
+.login-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.inner-loginBox {
+  border: 1px solid black;
+  padding: 30px;
+}
+.login-input {
+  padding: 5px;
+  margin-right: 5px;
+  width: 80%;
+}
+.login-label {
+  padding: 20px;
+  width: 100px;
+}
+.task-container,
+.dashboard-container {
+  max-width: 600px;
+  margin: 40px auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 30px;
+}
+.dashboard-container h2,
+.task-container h2 {
+  text-align: center;
+  color: darkgoldenrod;
+}
+.task-container p {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.task-container input {
+  width: 80%;
+}
+
+.table-container {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fff;
+}
+.emp-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  min-width: 600px;
+}
+@media (max-width: 768px) {
+  .emp-table th,
+  .emp-table td {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .table-container {
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .emp-table {
+    min-width: 450px;
+  }
+
+  .emp-table th,
+  .emp-table td {
+    padding: 6px;
+    font-size: 0.8rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
