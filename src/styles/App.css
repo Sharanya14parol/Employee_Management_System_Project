@@ -107,8 +107,8 @@
   flex-direction: column;
   margin-bottom: 15px;
 }
-.task-container input {
-  width: 80%;
+.task-container input, .task-button ,.task-container select{
+  width: 60%;
 }
 
 .table-container {
