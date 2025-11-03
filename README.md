@@ -1,16 +1,59 @@
-# React + Vite
+**Overview**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Employee Task Management System is a web-based application built using React (Vite) that helps employees manage their daily tasks and track progress efficiently.
 
-Currently, two official plugins are available:
+The system has two roles:
+1.Employees – who can add, view, edit, and manage their tasks.
+2.Admin – who can view all employees and their tasks to monitor progress.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Features Implemented**
 
-## React Compiler
+1.Employee Features
+Login using predefined mock credentials.
+Add new tasks with title, description, and deadline.
+Edit or delete existing tasks.
+Update task progress through dropdown (Pending → In Progress → Completed).
+View tasks in a card-based layout.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2.Admin Features
+View list of all employees and their tasks.
+Filter or search tasks by employee name or task status.
+Overview of all tasks categorized by completion status
 
-## Expanding the ESLint configuration
+**Running the Project Locally**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1.Clone the repository
+git clone https://github.com/Sharanya14parol/Employee_Management_System_Project.git
+
+2.Navigate into the project directory
+cd employee-task-manager
+
+3.Install dependencies
+npm install
+
+4.Start the local server
+npm run dev
+
+5.Open your browser at → http://localhost:5173/
+
+**Application Flow**
+
+1.Login Page
+Users log in using mock credentials.
+2.Employee Dashboard
+Shows all tasks categorized by current status.
+3.Tasks Page
+Employees can add, edit, delete, or update task status.
+4.Employees Page (Admin View)
+Admin can see all employees and their task activities.
+5.Employee Dashboard
+Shows an the overall summary of all the employees and tasks status
+6.Logout
+Ends the session and redirects to login.
+
+**Deployment**
+
+The app is deployed on Vercel, linked to this GitHub repository.
+Every new code push to the main branch automatically triggers a new build and deployment.
+
+🔗 Live URL: employee-management-system-project-n6zgmoh45.vercel.app
