@@ -56,4 +56,5 @@ Ends the session and redirects to login.
 The app is deployed on Vercel, linked to this GitHub repository.
 Every new code push to the main branch automatically triggers a new build and deployment.
 
-🔗 Live URL: employee-management-system-project-n6zgmoh45.vercel.app
+🔗 Live URL: [employee-management-system-project-n6zgmoh45.vercel.app](https://employee-management-system-project-n6zgmoh45.vercel.app
+)
